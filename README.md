@@ -1,12 +1,46 @@
-# Safety Vision AI - International Paper Internal Project
+# Safety Vision AI
 
-Safety Vision AI is an advanced internal solution developed by International Paper to enhance safety measures using computer vision and AI technologies. This system processes real-time video feeds to detect potential safety issues in our facilities, leveraging YOLO object detection models and a GPT-4 powered chatbot for safety-related queries.
+Safety Vision AI is an advanced solution that uses computer vision and AI to detect safety issues in real-time video feeds. It leverages YOLO object detection models and integrates a GPT-4 powered chatbot for safety-related queries.
 
 ## Features
 
-- Real-time video processing for safety issue detection in International Paper facilities
-- YOLO-based object detection for identifying potential hazards specific to our operations
-- GPT-4 powered chatbot for addressing safety-related queries from our staff
-- User-friendly web interface for monitoring and interaction, designed with International Paper's branding guidelines
+- Real-time video processing for safety issue detection
+- YOLO-based object detection for identifying potential hazards
+- GPT-4 powered chatbot for safety-related queries
+- User-friendly web interface for monitoring and interaction
 
-[... rest of README content ...]
+## Prerequisites
+
+- Azure subscription
+- Docker and Docker Compose
+- Node.js and npm
+- Python 3.9+
+
+## Quick Start
+
+1. Clone this repository
+2. Set up environment variables (see `.env.example`)
+3. Run `docker-compose up —build`
+4. Access the web interface at `http://localhost:3000`
+
+## Deploy to Azure
+
+Click the button below to deploy this solution to Azure:
+
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FYourUsername%2Fsafety-vision-ai%2Fmain%2Fazure%2Farm-templates%2Fdeployment-template.json)
+
+## Configuration
+
+Update the `.env` file with your specific configuration:
+
+```
+OPENAI_API_KEY=your_openai_api_key
+AZURE_SUBSCRIPTION_ID=your_azure_subscription_id
+AZURE_RESOURCE_GROUP=your_azure_resource_group
+```
+
+## Contributing
+
+We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for more details.
+
+## License
