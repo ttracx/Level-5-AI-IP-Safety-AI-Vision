@@ -1,6 +1,6 @@
-# Safety Vision AI
+# Level 5 AI - IP Safety Vision AI
 
-Safety Vision AI is an advanced solution that uses computer vision and AI to detect safety issues in real-time video feeds. It leverages YOLO object detection models and integrates a GPT-4 powered chatbot for safety-related queries.
+IP Safety Vision AI is an advanced solution that uses computer vision and AI to detect safety issues in real-time video feeds. It leverages YOLO object detection models and integrates a GPT-4 powered chatbot for safety-related queries.
 
 ## Features
 
