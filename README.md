@@ -1,6 +1,6 @@
 # Level 5 AI - IP Safety Vision AI
 
-IP Safety Vision AI is an advanced solution that uses computer vision and AI to detect safety issues in real-time video feeds. It leverages YOLO object detection models and integrates a GPT-4 powered chatbot for safety-related queries.
+IP Safety Vision AI is an advanced solution that uses computer vision and AI to detect safety issues in real-time video feeds. It leverages YOLO object detection models and integrates a GPT-4 powered chatbot for safety-related queries. This project aligns with International Paper's Safety of the Future project and is a Level 5 AI Development classification. It is an offshoot of the PulpVision CV project.
 
 ## Features
 
@@ -44,3 +44,5 @@ AZURE_RESOURCE_GROUP=your_azure_resource_group
 We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for more details.
 
 ## License
+
+This is an Internal Project at International Paper and for internal use only. Developed by Tommy Xaypanya, AI SME, Data Engineer, & Senior IT Audit.
